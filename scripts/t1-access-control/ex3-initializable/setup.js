@@ -20,7 +20,7 @@
         
         // Note that the script needs the ABI which is generated from the compilation artifact.
         // Make sure contract is compiled and artifacts are generated
-        artifactsPath = `browser/contracts/common/token/artifacts/${contractName}.json` // Change this for different path
+        artifactsPath = `browser/github/damianrusinek/eth-vulns-tutorial/contracts/common/token/artifacts/${contractName}.json` // Change this for different path
 
         let metadataDT = JSON.parse(await remix.call('fileManager', 'getFile', artifactsPath))
         
@@ -47,7 +47,7 @@
     
         // Note that the script needs the ABI which is generated from the compilation artifact.
         // Make sure contract is compiled and artifacts are generated
-        artifactsPath = `browser/contracts/t1-access-control/ex3-initializable/artifacts/${contractName}.json` // Change this for different path
+        artifactsPath = `browser/github/damianrusinek/eth-vulns-tutorial/contracts/t1-access-control/ex3-initializable/artifacts/${contractName}.json` // Change this for different path
 
         let metadataImpl = JSON.parse(await remix.call('fileManager', 'getFile', artifactsPath))
         
@@ -74,7 +74,7 @@
     
         // Note that the script needs the ABI which is generated from the compilation artifact.
         // Make sure contract is compiled and artifacts are generated
-        artifactsPath = `browser/contracts/t1-access-control/ex3-initializable/artifacts/${contractName}.json` // Change this for different path
+        artifactsPath = `browser/github/damianrusinek/eth-vulns-tutorial/contracts/t1-access-control/ex3-initializable/artifacts/${contractName}.json` // Change this for different path
 
         let metadataWallet = JSON.parse(await remix.call('fileManager', 'getFile', artifactsPath))
         

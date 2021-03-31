@@ -17,7 +17,7 @@
     
         // Note that the script needs the ABI which is generated from the compilation artifact.
         // Make sure contract is compiled and artifacts are generated
-        artifactsPath = `browser/contracts/t1-access-control/ex2-internal/solution/artifacts/${contractName}.json` // Change this for different path
+        artifactsPath = `browser/github/damianrusinek/eth-vulns-tutorial/contracts/t1-access-control/ex2-internal/solution/artifacts/${contractName}.json` // Change this for different path
 
         let metadataVT = JSON.parse(await remix.call('fileManager', 'getFile', artifactsPath))
         
