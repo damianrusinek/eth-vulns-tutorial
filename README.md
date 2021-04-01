@@ -13,11 +13,12 @@ Exercises prepared on the base of Top 10 vulnerabilities from https://dasp.co/ a
 
 ## Arithmetic
 
-Examples:
-* overflows
-* batch overflow
+* Exercise 1: Arithmetic overflow in Timelock.
+* Exercise 2: Batch overflow in token batch transfer.
 
 ## Unchecked Return Values For Low Level Calls
+
+* TODO
 
 ## Reentrancy (untrusted external call)
 
@@ -27,12 +28,22 @@ Examples:
 
 ## Denial of service
 
+Examples:
+* Unbound array.
+* Selfdestruct.
+
 ## Bad randomness
+
+Examples:
+* Randomness on the base of block numer.
 
 ## Front running
 
+* TODO
+
 ## Time Manipulation
 
+* TODO
 
 ## Short Addresses
 
