@@ -1,10 +1,6 @@
-pragma solidity ^0.7.0;
+pragma solidity >=0.7.0 <0.8.0;
 
-// Remix
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/solc-0.7/contracts/proxy/Proxy.sol";
-
-// Hardhat
-// import "@openzeppelin/contracts/proxy/Proxy.sol";
+import "@openzeppelin/contracts@3.3/proxy/Proxy.sol";
 
 
 contract MyProxyWallet is Proxy {

@@ -1,14 +1,9 @@
-pragma solidity ^0.7.0;
+pragma solidity >=0.7.0 <0.8.0;
 
-// Remix
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/solc-0.7/contracts/token/ERC20/IERC20.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/solc-0.7/contracts/math/SafeMath.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/solc-0.7/contracts/utils/Context.sol";
+import "@openzeppelin/contracts@3.3/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts@3.3/math/SafeMath.sol";
+import "@openzeppelin/contracts@3.3/utils/Context.sol";
 
-// Hardhat
-// import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-// import "@openzeppelin/contracts/math/SafeMath.sol";
-// import "@openzeppelin/contracts/utils/Context.sol";
 
 contract Safe_ERC20_Internal is IERC20, Context {
 
